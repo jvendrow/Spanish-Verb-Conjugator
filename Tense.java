@@ -66,7 +66,7 @@ public class Tense {
 		}
 	}
 	
-    //Updates the verb to account for stem changes
+        //Updates the verb to account for stem changes
 	public String stemChange(String verb) {
 		if(checkForIreg(verb, eToI) >= 0) {
 			for(int i = verb.length()-3; i >= 0; i--) {
